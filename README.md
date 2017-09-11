@@ -3,7 +3,7 @@
 # Basecamp JavaScript I Stretch Project
 
 ## Objective
-Show understanding of core Javascript Concepts
+Show understanding of core Javascript Concepts.
 
 ## Directions
 Fork this repo, clone your fork, then complete the challenges in assessment.js.
