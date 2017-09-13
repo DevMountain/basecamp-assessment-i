@@ -1,8 +1,8 @@
-// #1 create a variable called 'myName' and assign it to your name as a string
+// #1 create a variable called 'myName' and assign it to your name as a string.
 
 // CODE HERE
 
-// #2 create a variable called 'iLoveCode' and assign it the value of 'myName' + loves code as a string
+// #2 create a variable called 'iLoveCode' and assign it the value of 'myName' + loves code as a string.
 
 // CODE HERE
 
@@ -11,19 +11,19 @@
 
 // CODE HERE
 
-// #4 using the arrow syntax, create a function called 'sum' that takes in a number and returns that number added to intself.
+// #4 using the arrow syntax, create a function called 'sum' that takes in a number and returns that number added to itself.
 
 // CODE HERE
 
-// #5 using the arrow syntax, create a function called 'greeter' that takes in two parameters, name & age. greeter should return a string like this "Hi, I'm Bryan and I am 27 years old" but replacing the name and age with the passed in values. The test on this question is very strict on casing and punctuation
+// #5 using the arrow syntax, create a function called 'greeter' that takes in two parameters, name & age. greeter should return a string like this "Hi, I'm Bryan and I am 27 years old." but replacing the name and age with the passed in values. The test on this question is very strict on casing and punctuation.
 
-// COD HERE
+// CODE HERE
 
-// #6 using the arrow syntax, create a function called 'animalSounds'. animalSound takes three parameters: name, sound and a callback. animalSound should return something like this "I am wild Bryan. Hear me woof" when invoked using the wildNameReturn function you previously created as the callback.
+// #6 using the arrow syntax, create a function called 'animalSounds'. animalSound takes three parameters: name, sound and a callback. animalSound should return something like this "I am wild Bryan. Hear me woof." when invoked using the wildNameReturn function you previously created as the callback.
 // CODE HERE
 
 // CALLBACKS
-// Here we will write a function that takes in a callback as a parameter. You must write the callback function to make the existing function work properly
+// Here we will write a function that takes in a callback as a parameter. You must write the callback function to make the existing function work properly.
 // EXAMPLE
 // You would create the sayHi function here
 var sayHi = (str, callback) =>{
@@ -45,7 +45,7 @@ first(names, firstName => {
   return firstName;
 });
 
-// #8 using the arrow syntax, write a function called 'multiply' that multiplies two numbers. Invoke the callback with the result of the multiplication
+// #8 using the arrow syntax, write a function called 'multiply' that multiplies two numbers. Invoke the callback with the result of the multiplication.
 
 // CODE HERE
 
@@ -53,7 +53,7 @@ multiply(4,3, answer => {
   console.log(`the answer is ${answer}`)
 });
 
-// #9 using the arrow syntax, write a function called 'last' that returns the last name in the previously crated names array using a callback function
+// #9 using the arrow syntax, write a function called 'last' that returns the last name in the previously crated names array using a callback function.
 
 // CODE HERE
 
@@ -62,7 +62,7 @@ last(names, lastName =>{
   return lastName;
 });
 
-// #10 using the arrow syntax, write a function called 'sizer' that returns the larger of two numbers that are passed in using a callback function
+// #10 using the arrow syntax, write a function called 'sizer' that returns the larger of two numbers that are passed in using a callback function.
 
 // CODE HERE
 
