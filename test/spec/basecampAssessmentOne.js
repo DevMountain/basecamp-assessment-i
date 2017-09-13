@@ -24,13 +24,13 @@ describe('arrow functions', function () {
 		expect(greeter).toEqual(jasmine.any(Function));
 	})
 	it('greeter should return correct value', function(){
-		expect(greeter('Bryan', 27)).toBe("Hi, I'm Bryan and I am 27 years old");
+		expect(greeter('Bryan', 27)).toBe("Hi, I'm Bryan and I am 27 years old.");
 	})
 	it('animalSounds should exist', function(){
 		expect(animalSounds).toEqual(jasmine.any(Function));
 	})
 	it('animalSounds should return correct value', function(){
-		expect(animalSounds('Bryan', 'meow', wildNameReturn)).toBe("I am wild Bryan. Hear me meow");
+		expect(animalSounds('Bryan', 'meow', wildNameReturn)).toBe("I am wild Bryan. Hear me meow.");
 	})
 })
 
