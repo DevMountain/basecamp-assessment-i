@@ -16,7 +16,7 @@ When you have completed the challenges please follow these instructions:
 * Add and commit all of your completed code.
 * Type `git checkout -b gh-pages`
 * Type `git push -u origin gh-pages`
-* Find your account name on github and insert it into this url `http://[YourGithubAccountName].github.io/javascript-basic-assessment`
+* Find your account name on github and insert it into this url `http://[YourGithubAccountName].github.io/basecamp-javascript-i`
 * Open that url to make sure it works, then send that url to your assigned mentor!
 
 ## Contributions
