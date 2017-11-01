@@ -83,7 +83,7 @@ var friends = ['Cam', 'Corey', 'Landy'];
 
 var shortNames // CODE HERE
 
-// #13 here we have created a NickNameMaker function that will shorten names to the begninning two Characters so 'Cam' will be 'CaCa. Using the nickNameMaker function, map over the previously created friends array to return the friends nick names and assign it to 'shorty'.
+// #13 here we have created a NickNameMaker function that will shorten names to the beginning two Characters so 'Cam' will be 'CaCa. Using the nickNameMaker function, map over the previously created friends array to return the friends nick names and assign it to 'shorty'.
 
 var nickNameMaker = (name) => {
   return name.split('').slice(0,2).join('') + name.split('').slice(0,2).join('');
