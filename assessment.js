@@ -19,7 +19,7 @@
 
 // CODE HERE
 
-// #6 using the arrow syntax, create a function called 'animalSounds'. animalSound takes three parameters: name, sound and a callback. animalSound should return something like this "I am wild Bryan. Hear me woof." when invoked using the wildNameReturn function you previously created as the callback.
+// #6 using the arrow syntax, create a function called 'animalSounds'. animalSounds takes three parameters: name, sound and a callback. animalSound should return something like this "I am wild Bryan. Hear me woof." when invoked using the wildNameReturn function you previously created as the callback.
 // CODE HERE
 
 // CALLBACKS
