@@ -2,105 +2,45 @@
 
 // CODE HERE
 
-// #2 create a variable called 'iLoveCode' and assign it the value of 'myName' + loves code as a string
+// #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
 
-// ARROW FUNCTIONS
-// #3 using the arrow syntax, create a function called 'wildNameReturn' that takes in variable as a parameter. Return the variable inside of the function with the word 'wild' in front so it returns "wild Bryan" and then invoke wildNameReturn using the 'myName' variable you created as an argument.
+// #3 create a variable called 'lovesCode' and set it to true
 
 // CODE HERE
 
-// #4 using the arrow syntax, create a function called 'sum' that takes in a number and returns that number added to intself.
+// #4 Using the previously created variables, create a new variable called 'me' that combines the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
 
-// #5 using the arrow syntax, create a function called 'greeter' that takes in two parameters, name & age. greeter should return a string like this "Hi, I'm Bryan and I am 27 years old" but replacing the name and age with the passed in values. The test on this question is very strict on casing and punctuation
-
-// COD HERE
-
-// #6 using the arrow syntax, create a function called 'animalSounds'. animalSound takes three parameters: name, sound and a callback. animalSound should return something like this "I am wild Bryan. Hear me woof" when invoked using the wildNameReturn function you previously created as the callback.
-// CODE HERE
-
-// CALLBACKS
-// Here we will write a function that takes in a callback as a parameter. You must write the callback function to make the existing function work properly
-// EXAMPLE
-// You would create the sayHi function here
-var sayHi = (str, callback) =>{
-  callback(str);
- }
-// So you can use it down here
- sayHi('Hi Lindsey', thingToSay =>{
-    alert(thingToSay); //should alert ('Hi Lindsey')'
- });
- // You can comment out the above code so it doesn't run every time you refresh your page.
-
-// #7 using the arrow syntax, write a function called 'first' that returns the first item of the array
-var names = ['Bryan', 'Jeremy', 'Joe', 'Megan', 'Ian', 'Taylor'];
+// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing to a number.
 
 // CODE HERE
 
-first(names, firstName => {
-  console.log(`The first name in names is ${firstName}`);
-  return firstName;
-});
-
-// #8 using the arrow syntax, write a function called 'multiply' that multiplies two numbers. Invoke the callback with the result of the multiplication
+// #6 Create a new variable called notHakeem using the previously created myName variable, test that your name DOES NOT equal 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
 
-multiply(4,3, answer => {
-  console.log(`the answer is ${answer}`)
-});
+// #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
+var age = 18;
+var canDrive;
 
-// #9 using the arrow syntax, write a function called 'last' that returns the last name in the previously crated names array using a callback function
 
 // CODE HERE
 
-last(names, lastName =>{
-  console.log(`The last name in names is ${lastName}`);
-  return lastName;
-});
+// #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
 
-// #10 using the arrow syntax, write a function called 'sizer' that returns the larger of two numbers that are passed in using a callback function
+var colorResponse;
 
-// CODE HERE
-
-sizer(300, 33, bigger => {
-  console.log(`${bigger} is the larger number`);
-  return bigger;
-});
-
-
-// METHODS ON ARRAYS
-var friends = ['Cam', 'Corey', 'Landy'];
-
-// #11 add the name 'Harry' to the end of the friends array
-
-// CODE HERE
-
-// #12 assign 'shortNames' the return value of any names shorter than four characters from the friends array
-
-var shortNames // CODE HERE
-
-// #13 here we have created a NickNameMaker function that will shorten names to the begninning two Characters so 'Cam' will be 'CaCa. Using the nickNameMaker function, map over the previously created friends array to return the friends nick names and assign it to 'shorty'.
-
-var nickNameMaker = (name) => {
-  return name.split('').slice(0,2).join('') + name.split('').slice(0,2).join('');
+var responseCreator = function(param){
+  // CODE HERE
 }
 
-var shorty // CODE HERE
-
-// #14 assign 'evens' the return value of even numbers from the numbers array
-var numbers = [1, 25, 6, 88, 47, 77, 333, 500];
+// #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
 
 // CODE HERE
 
-// #15 using the previously created numbers array, map over each number and add 3 to it and assign it to 'plusThree'.
-
-// CODE HERE
-
-// #15 using the 'goodPeople' array of objects, add a new key value pair of 'family: true' to each object. Hint: use forEach
-var goodPeople = [{name: 'George'}, {name: 'Randi'}, {name: 'Lindsey'}]
+// #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
 // CODE HERE
