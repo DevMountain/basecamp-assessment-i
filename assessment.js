@@ -65,5 +65,5 @@ var sum = (num) => num + num;
 
 function greeter(name, number) {
   // return "Hi! I am ${name} and I am ${number} years old" \\\\\\ For some reason this is not working for me
-  return "Hi! I'm " + name + " and I am " + number + " years old"
+  return "Hi! I am " + name + " and I am " + number + " years old"
 }
