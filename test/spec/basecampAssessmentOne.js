@@ -24,7 +24,7 @@ describe('me', function () {
 
 describe('trueFaveNum', function () {
 	it('should be equal to your faveNum variable', function () {
-		expect(trueFaveNum).toEqual(true);
+		expect(trueFaveNum === faveNum).toEqual(true);
 	})
 })
 
