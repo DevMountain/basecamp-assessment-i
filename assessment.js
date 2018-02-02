@@ -14,7 +14,7 @@
 
 // CODE HERE
 
-// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing to a number.
+// #5 Create a new variable called 'trueFaveNum' that returns true when compared with 'faveNum' (trueFaveNum === faveNum //returns true). 
 
 // CODE HERE
 
@@ -37,7 +37,7 @@ var responseCreator = function(param){
   // CODE HERE
 }
 
-// #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
+// #9 Create a function called 'sum' that returns the sum of the input parameter added to itself. 
 
 // CODE HERE
 
