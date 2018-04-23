@@ -14,7 +14,7 @@
 
 // CODE HERE
 
-// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should return true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
+// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 // CODE HERE
 
