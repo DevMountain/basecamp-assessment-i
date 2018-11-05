@@ -30,7 +30,6 @@ function getFaveNum(){
 }
 
 
-
 /* #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string
 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'*/
 
@@ -42,6 +41,9 @@ if(myName !== notHakeem){
 } else {()
   console.log(myName);
 }
+
+=======
+var trueFaveNum =
 
 
 
