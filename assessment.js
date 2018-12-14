@@ -4,7 +4,7 @@
 
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
-// CODE HERE
+// var faveNum = '7';
 
 // #3 create a variable called 'lovesCode' and set it to true
 
